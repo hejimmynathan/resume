@@ -15,10 +15,12 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+            I have developed front-end user interfaces for several complex web
+            applications with HTML,CSS and JavaScript and their various
+            frameworks including reactjs, bootstrap, tailwindcss etc. I
+            optimized websites for maximum speed and scalability, while also
+            ensuring compatability with various browsers and devices. I also
+            participated in code reviews, feature planning and design reviews.
           </p>
           <button className="btn-primary mt-10">Say Hello</button>
         </div>
