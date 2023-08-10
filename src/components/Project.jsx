@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
+import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
 import project_person from "../assets/images/project_person1.png";
 import "swiper/css";
@@ -21,10 +21,9 @@ const Project = () => {
 
     {
       img: project4,
-      name: "React Nav",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "",
+      name: "Simple Social Media",
+      github_link: "https://github.com/hejimmynathan/social-media",
+      live_link: "https://social-media-nate.web.app/",
     },
     {
       img: project5,

@@ -9,7 +9,7 @@ const Skills = () => {
     },
     {
       logo: "logo-css3",
-      level: "Expect",
+      level: "Expert",
       count: 90,
     },
     {
