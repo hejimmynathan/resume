@@ -1,0 +1,44 @@
+[debug] [2023-08-10T15:11:43.876Z] ----------------------------------------------------------------------
+[debug] [2023-08-10T15:11:43.891Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nate\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-08-10T15:11:43.894Z] CLI Version:   12.2.1
+[debug] [2023-08-10T15:11:43.896Z] Platform:      win32
+[debug] [2023-08-10T15:11:43.897Z] Node Version:  v19.8.1
+[debug] [2023-08-10T15:11:43.897Z] Time:          Thu Aug 10 2023 16:11:43 GMT+0100 (West Africa Standard Time)
+[debug] [2023-08-10T15:11:43.898Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-10T15:11:44.341Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-10T15:11:44.344Z] > authorizing via signed-in user (jimmynathan11@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Nate\Desktop\react_resume
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-10T15:11:55.021Z] Using project from CLI flag: jimmynathandev
+[debug] [2023-08-10T15:11:55.036Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jimmynathandev [none]
+[debug] [2023-08-10T15:11:56.044Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jimmynathandev 200
+[debug] [2023-08-10T15:11:56.045Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jimmynathandev {"projectId":"jimmynathandev","projectNumber":"863463606346","displayName":"jimmynathandev","name":"projects/jimmynathandev","resources":{"hostingSite":"jimmynathandev"},"state":"ACTIVE","etag":"1_0081690e-a9bd-4988-a0f4-4ae1136bb5c8"}
+[info] i  Using project jimmynathandev (jimmynathandev) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
