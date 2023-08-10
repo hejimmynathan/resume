@@ -14,9 +14,9 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://myreactflix.netlify.app",
+      name: "Portfolio Website",
+      github_link: "https://github.com/hejimmynathan/resume",
+      live_link: "https://jimmy-nathan.netlify.app",
     },
 
     {
@@ -24,13 +24,13 @@ const Project = () => {
       name: "React Nav",
       github_link:
         "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
+      live_link: "",
     },
     {
       img: project5,
       name: "Random Quote generator",
       github_link: "https://github.com/hejimmynathan/quote-app",
-      live_link: "",
+      live_link: "https://lively-rabanadas-111ca9.netlify.app",
     },
   ];
   return (
