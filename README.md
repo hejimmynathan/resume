@@ -6,5 +6,4 @@ responsive portfolio using react js and tailwind css
 2.npm run dev
 
 mail: jimmynathan11@gmail.com
-
-happy coding :)
+whatsapp: +2349069952829
