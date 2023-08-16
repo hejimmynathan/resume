@@ -1,12 +1,18 @@
 import React from "react";
 import hero from "../assets/images/hero.png";
+
 const Hero = () => {
   const social_media = [
-    "logo-instagram",
-    "logo-facebook",
-    "logo-linkedin",
-    "logo-twitter",
+    { icon: "logo-instagram", link: "https://www.instagram.com/hejimmynathan" },
+    { icon: "logo-facebook", link: "https://www.facebook.com/hejimmynathan" },
+    {
+      icon: "logo-linkedin",
+      link: "https://www.linkedin.com/in/hejimmynathan",
+    },
+    { icon: "logo-github", link: "https://www.github.com/hejimmynathan" },
+    // Add more platforms if needed
   ];
+
   return (
     <section
       id="home"
@@ -29,13 +35,16 @@ const Hero = () => {
           </h4>
           <button className="btn-primary mt-8">Contact Me</button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
-            {social_media?.map((icon) => (
-              <div
-                key={icon}
-                className="text-gray-600 hover:text-white cursor-pointer "
+            {social_media?.map((platform, index) => (
+              <a
+                key={index}
+                href={platform.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-white cursor-pointer"
               >
-                <ion-icon name={icon}></ion-icon>
-              </div>
+                <ion-icon name={platform.icon}></ion-icon>
+              </a>
             ))}
           </div>
         </div>
