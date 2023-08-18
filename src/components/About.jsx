@@ -36,7 +36,7 @@ const About = () => {
               <br />
               <br />
               <a
-                href="https://docs.google.com/document/d/1GoAv6dbr0FJuWtKZvgUGBWZcVjx3IOlm/edit?usp=drive_link&ouid=101660137087718394711&rtpof=true&sd=true"
+                href="https://docs.google.com/document/d/1GoAv6dbr0FJuWtKZvgUGBWZcVjx3IOlm/export?format=pdf"
                 download
               >
                 <button className="btn-primary">Download CV</button>
